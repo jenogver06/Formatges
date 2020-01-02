@@ -2,7 +2,7 @@
 .header{
     background: #333;
     color:white;
-    padding:2rem 0;
+    padding:0rem 0;
     position:fixed;
     left: 0;
     top:0;
@@ -24,6 +24,7 @@ font-style: italic;
 .logo{ 
      width: 180px;
     height:150px;
+    margin-left: 250px;
     
 }
 
@@ -33,7 +34,7 @@ font-style: italic;
 
 .navegacion li ul {
     display:none;
-    position:absolute;
+    position: absolute;;
     min-width:140px;
 }
 
@@ -58,3 +59,71 @@ font-style: italic;
     background: #4a4a4a;
 }
 /*Termina el header*/
+
+/*Empieza el Main*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+body{
+    background: #E2E2E2;
+    font-family: "Lato";
+}
+
+.portafolio{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.portafolio h1{
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+}
+
+.portafolio-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.portafolio-item{
+    width:30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.portafolio-text{
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+
+    background: rgba(19, 28, 59, 0.342);
+    color: #fff;
+
+    transform: translateY(100%);
+
+    transition: all 0.5s ease-out;
+
+}
+
+.portafolio-text p{
+    text-align: justify;
+}
+
+.portafolio-item:hover .portafolio-text{
+    transform: translateY(0%);
+}
+
+/*Aqui termina el Main*/
+
+
