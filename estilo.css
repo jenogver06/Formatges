@@ -124,6 +124,35 @@ body{
     transform: translateY(0%);
 }
 
+#curado{
+    width: 30%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+p.parrafo1{
+    font-style: italic;
+    color: #D4AF7B;
+    position: absolute;
+}
+
+h1.h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+}
+
 /*Aqui termina el Main*/
+
+/*Aqui empieza el Footer*/
+
+#Wapps{
+    width: 30%;
+    float:;
+}
+
+#dinahosting{
+    width:30%;
+}
 
 
