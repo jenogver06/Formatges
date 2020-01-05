@@ -154,10 +154,11 @@ table.th.td{
 
 
 #Wapps{
-    width: 30%;
+    width: 450px;
     float: right;
 }
 
 #dinahosting{
-    width:30%;
+    width: 450px;
+    float: left;
 }
