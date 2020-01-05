@@ -142,17 +142,22 @@ h1.h1{
     font-family: 'Fira Sans', sans-serif;
 }
 
+table.th.td{
+    width: 100%;
+    
+}
+
 /*Aqui termina el Main*/
 
 /*Aqui empieza el Footer*/
 
+
+
 #Wapps{
     width: 30%;
-    float:;
+    float: right;
 }
 
 #dinahosting{
     width:30%;
 }
-
-
